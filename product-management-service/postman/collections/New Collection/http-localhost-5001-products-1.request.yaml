@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://localhost:5001/products
+description: ""
+url: http://localhost:5001/products
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_13t2}}"
+order: 2000
